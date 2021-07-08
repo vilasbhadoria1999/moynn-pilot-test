@@ -1,0 +1,459 @@
+ .container{
+    position: relative;
+    margin-top:55px ;
+    height: 1220px;
+    width: 100%;
+    
+    
+}
+.home_templete{
+    position: absolute;
+    left: 80px;
+    top: 45px;
+    border-right: rgb(243, 242, 242) solid .2px;
+    width: 500px;
+    height: 410px;
+    
+}
+.home_templete h3{
+    color: #777;
+    font-weight:normal;
+    letter-spacing: 0.1pt;
+    font-size: 21px;
+    margin-bottom: 2px;
+}
+.home_form{
+    position: absolute;
+    right: 160px;
+    top:45px ;
+    
+}
+.home_templete img{
+    margin-left: 61px;
+    
+
+}
+.home_templete p{
+    color: #777777;
+    margin-top: 0px;
+    margin-left: -20px;
+    font-size: 15px;
+}
+.form_upper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    
+    
+    
+}
+  
+.email_div input{
+    width:470px;
+    height: 45px; 
+    margin-bottom: 40px;
+    border: #cecdcd solid 0.2px;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(41, 41, 41) ;
+}
+.email_div input:hover{
+    border: black solid 0.2px;
+}
+.password_div input:hover{
+    border: black solid 0.2px;
+}
+.confirm_div input:hover{
+    border: black solid 0.2px;
+}
+.password_div input{
+    width:470px;
+    height: 45px; 
+    margin-bottom: 40px;
+    border: #cecdcd solid 0.2px;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(41, 41, 41) ;
+}
+.confirm_div input{
+    width:470px;
+    height: 45px; 
+    margin-bottom: 40px;
+    border: #cecdcd solid 0.2px;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(41, 41, 41) ;
+}
+
+.HomePage_Footer{
+    position: absolute;
+    top:750px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: 8px solid #eaeef1;
+    margin:auto;
+    
+}
+.Footer_end{
+    position: absolute;
+    bottom: 0;
+    background-color: #292828;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    
+}
+.firstName input {
+    height: 45px;
+    width: 220px;
+    border: #cecdcd solid 0.2px;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(41, 41, 41) ;
+}
+.firstName input:hover{
+    border: black solid 0.2px;
+}
+.lastName input{
+    height: 45px;
+    width: 205px;
+    margin-left: 21px;
+    border: #cecdcd solid 0.2px;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: rgb(41, 41, 41) ;
+}
+.lastName input:hover{
+    border: black solid 0.2px;
+}
+
+ .form_middle{
+    display: flex;
+    flex-direction: row;
+    
+    margin-bottom: 40px;
+ }
+ .form_lower{
+     margin-top: 30px;
+     
+ }
+ 
+ 
+ .Checkbox_area {
+     margin-top: 30px;
+    
+     width: 500px;
+ }
+ .Checkbox_area label{
+     cursor: pointer;
+     font-size: 11px;
+     
+ }
+
+ .Checkbox_area input{
+     width: 15px;
+     height: 15px;
+     cursor: pointer;
+     
+     
+ }
+ 
+ 
+ 
+ .Checkbox_area input:hover{
+     border: #6eb6ff 0.2px;
+     background-color: rgb(150, 149, 149);
+ }
+ .checkbox_text {
+     margin-left: 25px;
+     margin-top: -22px;
+     width: 440px;
+     color: rgb(150, 149, 149);
+     
+ }
+ .checkbox_text span{
+     color: #6eb6ff;
+     
+ }
+ .form_lower label span{
+     cursor: pointer;
+     color: rgb(150, 149, 149);
+     font-size: 16px;
+     font-weight: lighter;
+ }
+ .checkbox_text span:hover{
+ text-decoration: underline;
+ }
+    
+ .form_btn{
+    
+     margin-top: 45px;
+     text-align: center;
+     margin:30px;
+ }
+ .form_btn a{
+
+     border-radius: 5px;
+     background-color: #6eb6ff;
+     padding: 9px 72px 9px 72px;
+     text-decoration: none;
+     color: white;
+     font-size: 12px;
+     border:#6eb6ff 0.2px solid ;
+ }
+ .form_btn a:hover{
+     background-color: white;
+     color:#6eb6ff ;
+ }
+ p{
+     margin-left: 35px;
+     font-size: 13px;
+     margin-top: 35px;
+ }
+ a{
+     text-decoration: none;
+     color:#6eb6ff ;
+     cursor: pointer;
+ }
+ .Footer_left{
+     position: absolute;
+     left: 0px;
+     margin-top: 30px;
+    
+     text-align: center;
+ }
+ .Footer_left ul li{
+     list-style: none;
+ }
+ .address_menu ul li{
+     font-size: 12px;
+     color:  #777777;
+     margin-top: 2px;
+ }
+ .address_menu ul li p{
+    margin-left: 0px;
+    font-size: 13px;
+    margin-top: 30px;
+ }
+ .address_menu{
+     text-align: left;
+     padding-left: 20px;
+ }
+
+ 
+ .Footer_right {
+     position:absolute;
+     right:0;
+    
+   
+     text-align: center;
+     width: 33%;
+     margin-top: 30px;
+ }
+ .Footer_middle{
+     position: absolute;
+     left: 33%;
+     margin-top: 30px;
+     
+     width: 33%;
+     text-align: center;
+ }
+
+ .Footer_left_heading{
+   
+    text-align: left;
+    padding-left:60px ;
+ }
+ .Footer_left_heading h3{
+    color: #8d8d8d;
+    font-size: 16px;
+ }
+ .Footer_middle_heading h3{
+    color: #8d8d8d;
+    font-size: 16px;
+ }
+ .Footer_right_heading h3{
+    color: #8d8d8d;
+    font-size: 16px;
+ }
+ 
+ 
+ .Footer_right_heading{
+    
+    padding-right: 70px;
+   
+ }
+ .Footer_middle ul li{
+     list-style: none;
+     color: #777777;
+     margin-top: 0px;
+ }
+ 
+ 
+ .Footer_middle_links {
+     text-align: left;
+    
+     width: 200px;
+     margin: auto;
+     
+ }
+ .right_icon {
+    color: #6eb6ff;
+    margin-right: 10px;
+
+
+ }
+ 
+ .Footer_middle ul li a{
+     /* margin-top: 50px; */
+     color: #777777;
+     font-size: 12px;
+     margin-left: -20px;
+    
+ }
+ .Footer_right ul li img{
+     width:110px;
+    margin-bottom: 30px;
+ }
+ .Footer_right ul li{
+     list-style: none;
+ }
+ .companies_logo{
+    width:200px;
+    
+    padding-left: 65px;
+    
+ }
+ 
+ 
+ 
+.Footer_end p{
+    margin-top:15px;
+    font-size: 16px;
+    color: #cecdcd;
+}
+
+.confirm_div input::placeholder {
+    padding-left: 0px;
+    font-size: 15px;
+    color: #cecdcd;
+}
+.password_div input::placeholder {
+    padding-left: 0px;
+    font-size: 15px;
+    color: #cecdcd;
+}
+.email_div input::placeholder {
+    padding-left: 0px;
+    font-size: 15px;
+    color: #cecdcd;
+    }
+.firstName input::placeholder {
+    padding-left: 0px;
+    font-size: 15px;
+    color: #cecdcd;
+}
+
+.firstName input:active {
+ color: tomato;
+}
+.lastName input::placeholder {
+    padding-left: 0px;
+    font-size: 15px;
+    color: #cecdcd;
+ }
+ .email_div p{
+    color: red;
+    margin-top:-40px;
+    font-size: 11px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    }
+    .password_div p{
+        color: red;
+        margin-top:-40px;
+        font-size: 11px;
+        margin-bottom: 30px;
+        margin-left: 0;
+        }
+ .confirm_div p{
+    color: red;
+    margin-top:-40px;
+    font-size: 11px;
+     margin-bottom: 30px;
+ margin-left: 0;
+ }
+.firstName p{
+   color: red;
+   margin-top:0px;
+   font-size: 11px;
+   margin-bottom: 30px;
+   margin-left: 0;
+  }
+
+  .lastName p{
+   color: red;
+   margin-top:0px;
+   font-size: 11px;
+   margin-bottom: 30px;
+   margin-left: 20px;
+}
+.Checkbox_area p{
+    color: red;
+    margin-top:0px;
+    font-size: 11px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+ }
+
+
+.form_btn button{
+    font-size: 12px;
+  color: white;
+  background-color:#6eb6ff ;
+  padding:8px 68px 8px 68px;
+  border:#6eb6ff 0.2px solid ;
+  border-radius: 5px;
+  box-shadow: #e4e3e3 0px 0px 5px 5px;
+}
+.form_btn button:hover{
+    background-color: white;
+    border:#6eb6ff 0.2px solid ;
+    color: #6eb6ff;
+}
+
+
+@media (max-width: 532px) {
+    .home_templete{
+        width:80px;
+        margin-left: -70px;
+        text-align: center;
+    }
+    .home_form{
+        margin-top:400px;
+        
+        }
+    .home_templete img{
+        width: 60px;
+        margin-left: 0px;
+    }
+    .home_templete p{
+        margin-left: 10px;
+    }
+    }
+
+
+
+
+
+
+
+
+    

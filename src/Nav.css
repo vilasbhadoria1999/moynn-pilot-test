@@ -1,0 +1,197 @@
+/* .Nav_list ol{
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   /* float: right; */
+  /* position: absolute;
+   right: 14%; */ 
+
+
+.Nav_logo {
+    /* width: 45px; */
+    /* max-height: 80%;
+    max-width: 100%; */
+    position:absolute;
+    top: 0;
+    left: 66px;
+    right:0;
+    bottom: 0;
+    
+   
+}
+.Nav_logo img {
+    max-height: 80%;
+    max-width: 100%;
+    margin-top: 3px;
+}
+
+.Nav_bar{
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    height: 55px ;
+    position: relative;
+    position: fixed;
+    background-color: white;
+    top:0;
+    font-family: 'Poppins', sans-serif;
+    z-index:2;
+}
+/* .Nav_bar li button{
+    border: none;
+    background-color:white;
+    cursor: pointer; */
+    
+    
+
+.Nav_btn {
+    position: absolute;
+    right:68px;
+    top: 10px;
+    border: none;
+    background-color: white;
+}
+/* .Nav_list ol li{
+    margin-left: 45px;
+    color: #9C9C9C;
+    font-family: 'Poppins', sans-serif;
+}  */
+.Nav_btn button{
+    background-color: white;
+    padding: 6px 15px 6px 15px;
+    border-radius: 5px;
+    border-color: #6eb6ff ;
+    color: #6eb6ff;
+    border-width: thin;
+    font-weight: 500px;
+    
+}
+.Nav_btn button:hover{
+    border-color: #add2f7 ;
+    color: #add2f7;
+}
+/* .Nav_list ol li button{
+    color: #9C9C9C;
+    font-size: 12px;
+    font-weight: 500px;
+
+} */
+
+.nav_btn{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 600px;
+    margin-top: 0px;
+    /* border: solid black; */
+    top: 3px;
+    width: 600px;
+    height: 40px;
+}
+.first_btn a{
+    color: #9C9C9C;
+    margin-top: 8px;
+    position: absolute;
+    
+}
+.second_btn a{
+    color: #9C9C9C;
+    margin-top: 8px;
+    position: absolute;
+}
+.third_btn a{
+    color: #9C9C9C;
+    margin-top: 8px;
+    position: absolute;
+}
+.forth_btn a{
+    color: #9C9C9C;
+    margin-top: 8px;
+    position: absolute;
+}
+.fifth_btn a{
+    color: #9C9C9C;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.first_btn{
+    margin-right: 50px;
+    font-size: 13px;
+    height: 34px;
+    width: 100px;
+    position: absolute;
+    right: 400px;
+    margin-top: 5px;
+   }
+.second_btn{
+    margin-right: 50px;
+    font-size: 13px;
+    height: 34px;
+    width: 103px;
+    position: absolute;
+    right: 240px;
+    margin-top: 5px;
+}
+.third_btn{
+    margin-right: 50px;
+    font-size: 13px;
+    height: 34px;
+    width: 20px;
+    position: absolute;
+    right: 165px;
+    margin-top: 5px;
+}
+.forth_btn{
+    right: 140px;
+    font-size: 13px;
+    height: 34px;
+    width: 20px;
+    position: absolute;
+    margin-top: 5px;
+}
+.fifth_btn{
+    margin-right: 60px;
+    font-size: 13px;
+    height: 34px;
+    width: 35px;
+    position: absolute;
+    right: -10px;
+    margin-top: 5px;
+
+}
+.fifth_btn:active{
+    border:#d8d7d7  0.002px dashed;
+    border-radius: 2px;
+}
+
+.forth_btn:active{
+    border:#d8d7d7  0.002px dashed;
+    border-radius: 2px;
+}
+.third_btn:active{
+    border:#d8d7d7  0.002px dashed;
+    border-radius: 2px;
+}
+.second_btn:active{
+    border:#d8d7d7  0.002px dashed;
+    border-radius: 2px;
+}
+.first_btn:active{
+    border:#d8d7d7  0.002px dashed;
+    border-radius: 2px;
+}
+.first_btn a:hover{
+    color:#d8d7d7 ;
+}
+.second_btn a:hover{
+    color:#d8d7d7 ;
+}
+.third_btn a:hover{
+    color:#d8d7d7 ;
+}
+.forth_btn a:hover{
+    color:#d8d7d7 ;
+}
+.fifth_btn a:hover{
+    color:#d8d7d7 ;
+}

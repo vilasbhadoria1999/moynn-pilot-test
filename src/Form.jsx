@@ -1,0 +1,31 @@
+import React, { useState } from 'react';
+import FormSignup from './FormSignup';
+import {Redirect,Switch} from 'react-router-dom';
+
+
+const Form = () => {
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  function submitForm() {
+    setIsSubmitted(true);
+  }
+  return (
+    <>
+      
+        {!isSubmitted ? (
+          <FormSignup submitForm={submitForm} />
+        ) : (
+          <switch>
+            <Redirect from="./home" to="./CvPage"></Redirect>
+          </switch>
+        
+        )}
+
+        
+
+
+    </>
+  );
+};
+
+export default Form;
