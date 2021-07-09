@@ -39,12 +39,7 @@ const FormSignup = ({ submitForm }) => {
         {errors.position && <p>{errors.position}</p>}
         </div>
         
-        {/* <div className="Back_btn">
-        <Link to="./HomePage"><button >Back</button></Link></div>
-        <div className="nex_btn">
-        <button className="Next-btn" type="submit">Next</button>
-        </div> */}
-      
+        
       <div className="Back_btn">
         <Link to="./HomePage"><button >Back</button></Link></div>
         <div className="nex_btn">

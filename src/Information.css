@@ -83,50 +83,7 @@
     color: #6eb6ff;
 }
 
-/* .next-btn a{
-    border-radius: 5px;
-    background-color: #6eb6ff;
-    padding: 9px 72px 9px 72px;
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    border:#6eb6ff 0.2px solid ;
-    margin-left: 550px;
-}
-.next-btn {
-    margin-top: -18px;
-}
-.back_btn a{
-    border-radius: 5px;
-    background-color: #303131;
-    padding: 9px 72px 9px 72px;
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    border:#303131 0.2px solid ;
-    margin-left: 150px;
 
-}
-.back_btn a:hover{
-    background-color: white;
-    color:#303131;
-    
-}
-.next-btn a:hover{
-    background-color: white;
-    color:#6eb6ff;
-}
-.back_btn{
-    margin-top: 25px;
-    
-}
-.NextPage_btn{
- width: 100%;
- top:345px;
- position: absolute;
- left: 380px;
-
-} */
 .Information_form_left{
     display: flex;
     flex-direction: column;

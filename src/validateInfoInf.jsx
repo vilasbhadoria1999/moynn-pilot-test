@@ -2,9 +2,7 @@ export default function validateInfoCv(values) {
     let errors = {};
   
    
-    // else if (!/^[A-Za-z]+/.test(values.name.trim())) {
-    //   errors.name = 'Enter a valid name';
-    // }
+    
   
     if (!values.ResidenceCountry ){
          errors.ResidenceCountry= "*Required field";

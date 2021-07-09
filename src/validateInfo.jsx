@@ -2,9 +2,7 @@ export default function validateInfo(values) {
     let errors = {};
   
    
-    // else if (!/^[A-Za-z]+/.test(values.name.trim())) {
-    //   errors.name = 'Enter a valid name';
-    // }
+  
   
     if (!values.email) {
       errors.email = '*Required field.';
@@ -36,9 +34,8 @@ export default function validateInfo(values) {
        
 
     }
-    // if (!values.position ){
-    //   errors.position ="plz check";
-    // }
+    
+
     
     return errors;
   }

@@ -2,9 +2,7 @@ export default function validateInfoCarrer(values) {
     let errors = {};
   
    
-    // else if (!/^[A-Za-z]+/.test(values.name.trim())) {
-    //   errors.name = 'Enter a valid name';
-    // }
+  
   
     if (!values.Carrer_level ){
          errors.Carrer_level ="*Required field.";

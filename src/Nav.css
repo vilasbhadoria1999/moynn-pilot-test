@@ -1,16 +1,7 @@
-/* .Nav_list ol{
-   list-style: none;
-   display: flex;
-   flex-direction: row;
-   /* float: right; */
-  /* position: absolute;
-   right: 14%; */ 
 
 
 .Nav_logo {
-    /* width: 45px; */
-    /* max-height: 80%;
-    max-width: 100%; */
+
     position:absolute;
     top: 0;
     left: 66px;
@@ -36,10 +27,7 @@
     font-family: 'Poppins', sans-serif;
     z-index:2;
 }
-/* .Nav_bar li button{
-    border: none;
-    background-color:white;
-    cursor: pointer; */
+
     
     
 
@@ -50,11 +38,7 @@
     border: none;
     background-color: white;
 }
-/* .Nav_list ol li{
-    margin-left: 45px;
-    color: #9C9C9C;
-    font-family: 'Poppins', sans-serif;
-}  */
+
 .Nav_btn button{
     background-color: white;
     padding: 6px 15px 6px 15px;
@@ -69,12 +53,7 @@
     border-color: #add2f7 ;
     color: #add2f7;
 }
-/* .Nav_list ol li button{
-    color: #9C9C9C;
-    font-size: 12px;
-    font-weight: 500px;
 
-} */
 
 .nav_btn{
     position: absolute;
@@ -82,7 +61,7 @@
     flex-direction: row;
     left: 600px;
     margin-top: 0px;
-    /* border: solid black; */
+    
     top: 3px;
     width: 600px;
     height: 40px;
